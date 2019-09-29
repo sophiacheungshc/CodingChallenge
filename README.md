@@ -1,4 +1,4 @@
-# Sophia Cheung's Coding Challenge Submission for DeepScribe 💊💻
+# Welcome, DeepScribe team 💊💻!
 
 [Kitchen Fable Live!](https://kitchenfable.herokuapp.com/)
 
@@ -16,12 +16,12 @@ Kitchen Fable is a single page app inspired by Open Table, which allows users to
 * Ruby On Rails: MVC framework separates each concern into their own files, making for an easier time to manage the little details of CRUD operations involving the database and back end routes. Routing mechanism allows for the mapping of URLS to specific actions, and gives clarity into which view is rendered at the end of each action. I was able to use the controller and jbuilder view files to my advantage and return the needed reservation information to the front end upon signing in.
 
 ## Test It Out!
-* 1) On top right corner of homepage, click 'Sign In', then click 'Demo Login'.
-* 2) You should see toast notifications appear one by one on the top right corner. If not, there are no upcoming reservations within the next 5 days; you can go make some new reservations at any restaurant for a date that is no more than 5 days away, then log out and sign back in again. 
-* 3) Go to a restaurant show page by choosing a result from either clicking on a featured area or using the search bar. 
-* 4) To the right, make a reservation by modifying each input to your liking and clicking 'Book a Table'. You will then be redirected to your user profile page.
-* 5) You should see a toast notification appear on the top right corner, notifying you of a successful booking.
-* 6) Click 'Cancel Reservation' on the reservation you just made. Now you should see another toast notification confirming that you just cancelled the reservation.
+1. On top right corner of homepage, click 'Sign In', then click 'Demo Login'.
+2. You should see toast notifications appear one by one on the top right corner. If not, there are no upcoming reservations within the next 5 days; you can go make some new reservations at any restaurant for a date that is no more than 5 days away, then log out and sign back in again. 
+3. Go to a restaurant show page by choosing a result from either clicking on a featured area or using the search bar. 
+4. To the right, make a reservation by modifying each input to your liking and clicking 'Book a Table'. You will then be redirected to your user profile page.
+5. You should see a toast notification appear on the top right corner, notifying you of a successful booking.
+6. Click 'Cancel Reservation' on the reservation you just made. Now you should see another toast notification confirming that you just cancelled the reservation.
 
 ##### Code Snippet - Sign-In Form Component
 ```js
